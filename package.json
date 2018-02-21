@@ -1,0 +1,29 @@
+{
+  "name": "simple-webpack",
+  "description": "simple webpack setup",
+  "author": "Steven Calderon",
+  "url": "http://calderonsteven.github.io/",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --progress -p",
+    "server": "webpack-dev-server --open --content-base dist/"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.18",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "handlebars": "^4.0.11",
+    "handlebars-loader": "^1.6.0",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
